@@ -1,0 +1,662 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding-top: 5px;
+  padding-right: 80px;
+  color: gray;
+  font-size: 15px;
+}
+
+ul li {
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 6px;
+  padding: 15px;
+}
+
+.btn-3 {
+  width: 110px;
+  height: 40px;
+  margin-right: 20px;
+  background-color: orangered;
+  color: white;
+  font-weight: bold;
+  border-color: brown;
+  border: 2px;
+  font-size: 15px;
+}
+
+img {
+  width: 80px;
+  height: 40px;
+  margin-left: 80px;
+  padding-top: 10px;
+
+}
+
+ul li a {
+  color: black;
+  font-weight: bold;
+}
+
+h1 {
+
+  padding-top: 80px;
+  font-size: 45px;
+  margin-left: 70px;
+  color: black;
+  letter-spacing: -1px;
+  word-spacing: -5px;
+}
+
+.image {
+  float: right;
+  width: 600px;
+  height: 400px;
+  padding-top: 100px;
+  margin-right: 10px;
+}
+
+.peragraph p {
+  color: gray;
+  letter-spacing: 0px;
+  word-spacing: 4px;
+  padding-top: 40px;
+  font-size: 25px;
+  padding-left: 65px;
+}
+
+.btn {
+  color: black;
+  background-color: transparent;
+  border: 2px solid;
+  border-color: lightgray;
+  margin-left: 70px;
+  margin-top: 30px;
+  background-color: white;
+  width: 150px;
+  height: 45px;
+  border-radius: 15px;
+  font-size: 20px;
+}
+
+
+.btn-1 {
+  color: black;
+  background-color: transparent;
+  border: 2px solid;
+  border-color: lightgray;
+  margin-left: 70px;
+  margin-top: 30px;
+  background-color: white;
+  width: 150px;
+  height: 45px;
+  border-radius: 15px;
+  font-size: 20px;
+}
+
+
+
+
+
+.image {
+  width: 600px;
+  height: 400px;
+
+  position: relative;
+  animation: moveUpDown 6s ease-in-out infinite alternate;
+}
+
+@keyframes moveUpDown {
+  0% {
+    top: 0;
+  }
+
+  100% {
+    top: 100px;
+    /* Adjust this value to change the distance it moves */
+  }
+}
+
+.BUTTON {
+  margin-top: 20px;
+}
+
+.second-page {
+  margin-top: 200px;
+}
+
+.con1 {
+  border: 5px solid whitesmoke;
+  padding: 20px;
+  margin-right: 80px;
+  text-align: center;
+  border-radius: 30px;
+  height: 450px;
+  width: 300px;
+  margin-left: 50px;
+  transition: transform 0.3s ease;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.con2 {
+  border: 5px solid whitesmoke;
+  padding: 20px;
+  margin-right: 80px;
+  text-align: center;
+  border-radius: 30px;
+  height: 450px;
+  width: 300px;
+  margin-left: 50px;
+  transition: transform 0.3s ease;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.con3 {
+  border: 5px solid whitesmoke;
+  padding: 20px;
+  margin-right: 80px;
+  text-align: center;
+  border-radius: 30px;
+  height: 450px;
+  width: 300px;
+  margin-left: 50px;
+  transition: transform 0.3s ease;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.con1:hover {
+  transform: scale(1.1);
+  background-color: white;
+}
+
+.con2:hover {
+  transform: scale(1.1);
+  background-color: white;
+}
+
+.con3:hover {
+  transform: scale(1.1);
+  background-color: white;
+}
+
+.second-page {
+  display: flex;
+  height: 600px;
+
+}
+
+.con1 img {
+  width: 300px;
+  height: 200px;
+  float: right;
+}
+
+.con2 img {
+  width: 300px;
+  height: 250px;
+  float: right;
+}
+
+.con3 img {
+  width: 300px;
+  height: 250px;
+  float: right;
+}
+
+.third-page {
+  margin-top: 100px;
+  margin-left: 100px;
+  height: 600px;
+  width: 800px;
+}
+
+.con3 .tex3 {
+  font-size: 45px;
+  width: 300px;
+  margin-top: 30px;
+}
+
+.p p {
+  width: 600px;
+  font-size: 25px;
+}
+
+.third-page .clr-container {
+  border: 3px solid;
+  border-radius: 10px;
+  border-color: linear-gradient(45deg, red, brown);
+  background: linear-gradient(45deg, brown, red);
+  width: 350px;
+  height: 35px;
+  padding-top: 3px;
+  margin-top: 30px;
+  padding-left: 20px;
+  padding-top: 10px;
+  font-size: 19px;
+  color: white;
+}
+
+.p6 p {
+  margin-top: 20px;
+  color: gray;
+  font-size: 20px
+}
+
+.div1 {
+  height: 200px;
+  width: 500px;
+  float: left;
+}
+
+.class {
+  margin-right:100px ;
+  text-align: center;
+
+}
+
+
+.shiva {
+  width: 100px;
+  height: 100px;
+
+  float: left;
+  margin: 110px;
+}
+
+.count {
+  line-height: 100px;
+  color: black;
+  margin-left: 30px;
+  font-size: 60px;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.count {
+  font-family: "Sofia", sans-serif;
+}
+
+.count::before {
+  content: '+';
+  font-size: 90px;
+}
+
+.count {
+  font-weight: normal;
+}
+
+.highlight {
+  color: red;
+  font-weight: bold;
+}
+
+.tex {
+  text-align: center;
+  width: 200px;
+  font-weight: bold;
+  font-size: 24px;
+  font-family: "Sofia", sans-serif;
+}
+.div1 {
+
+  display: flex;
+  width: 1350px;
+  height: 280px;
+  margin-top: 100px;
+  background-image: url(images/gray.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.flex {
+  margin-left: 120PX;
+  font-size: 45px;
+  width: 300px;
+  margin-top: 100px;
+  width: 400px;
+}
+
+.para1 {
+  margin-left: 80PX;
+  width: 300px;
+  margin-top: 70px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.para1 img {
+  margin-right: 70px;
+}
+
+.para2 {
+  width: 300px;
+  margin-left: 80PX;
+  margin-top: 70px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.para2 img {
+  margin-right: 75px;
+}
+
+.para3 img {
+  margin-right: 80px;
+}
+.para4 img {
+  margin-right: 75px;
+}
+.para1 b {
+  text-align: center;
+  font-size: 25px;
+}
+.para2 b {
+  text-align: center;
+  font-size: 25px;
+}
+.div2 {
+  display: flex;
+  width: 1350px;
+  height: 300px;
+  background-image: url(images/gray.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.flex1 {
+  margin-left: 120PX;
+  font-size: 20px;
+  width: 350px;
+  margin-top: 100px;
+}
+
+.para4 {
+  margin-left: 150PX;
+  width: 300px;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 20px;
+  color: black;
+}
+
+.para3 {
+  width: 300px;
+  margin-left: 100PX;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 20px;
+  color: black;
+}
+
+.para4 b {
+  text-align: center;
+  font-size: 25px;
+}
+
+.para3 b {
+  text-align: center;
+  font-size: 25px;
+}
+
+.div-but {
+  width: 1350px;
+  height: 70px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -90px;
+}
+.button {
+  margin-left: 110PX;
+  font-size: 20px;
+}
+.div-but .button button {
+  width: 300px;
+  height: 60px;
+  border-radius: 10px;
+  text-align: left;
+  padding: 10px;
+  background: linear-gradient(to right, orangered, brown);
+  color: wheat;
+  border-color: red;
+  border: 4px solid;
+  font-weight: bold;
+  font-size: 17px;
+}
+.div3 {
+  display: flex;
+  width: 1350px;
+  height: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(images/gray.jpeg);
+}
+.flex2 {
+  margin-left: 140PX;
+  font-size: 20px;
+  width: 300px;
+}
+.but1 .btn {
+  color: black;
+  background-color: transparent;
+  border: 2px solid;
+  border-color: lightgray;
+  margin-left: 400px;
+  margin-top: 50px;
+  background-color: white;
+  width: 200px;
+  height: 50px;
+  border-radius: 15px;
+  font-size: 20px;
+  margin-top: 50px;
+}
+.div4 {
+  width: 1350px;
+  height: 900px;
+  background-color: white;
+  
+}
+.bg-pg {
+  width: 1000px;
+  height: 300px;
+  border: 2px solid;
+  border-radius: 20px;
+  background-color: white;
+
+}
+.div4 .bg-pg {
+  border: 5px solid whitesmoke;
+  padding: 20px;
+  margin-left: 150px;
+  text-align: center;
+  border-radius: 20px;
+  height: 780px;
+  width: 1000px;
+  margin-top: 200px;
+}
+.div4 .bg-pg h1{
+      text-align:left;
+}
+.div4 .bg-pg img {
+  height: 820px;
+  width: 530px;
+  float: right;
+  margin-top: -25px;
+}
+
+bg-pg p {
+  text-align: left;
+}
+.class {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-group1 input{
+  width: 190px;
+  height: 30px;
+  
+  background-color: lightgray;
+  border-color: gray;
+  border: 2px solid;
+  border-color: lightgray;
+}
+.form-group1 label{
+  color: gray;
+}
+.form-group2 label{
+  color: gray;
+}
+.form-group3 label{
+  color: gray;
+}
+.form-group4 label{
+  color: gray;
+}
+.form-group2 input {
+   float: right;
+   height: 30px;
+  background-color: lightgray;
+  border-color: gray;
+  border: 2px solid;
+  border-color: lightgray;
+}
+.form-group2 lable{
+  float: left;
+}
+
+.form-group3 input{
+  height: 30px;
+}
+.form-group3 input{
+  width: 350px;
+  height: 30px;
+  
+  background-color: lightgray;
+  border-color: gray;
+  border: 2px solid;
+  border-color: lightgray;
+}
+.form-group4 input{
+  height: 90px;
+  width: 380px;
+  background-color: lightgray;
+  border-color: gray;
+  border: 2px solid;
+  border-color: lightgray;
+}
+.lst-pg{
+  border: 3px;
+  border-radius: 5px;
+  margin-top: 100px;
+  border-color: gray;
+  width: 400px;
+  height: 1000px;
+}
+
+ .wk b{
+   margin-left: 400px;
+   font-size: 55px;
+ }
+ .wk .wkp{
+   width: 500px;
+  margin-left: 500px;
+  font-size:  20px;
+  text-align: center;
+  color: gray;
+  margin-top: 20px;
+ }
+.img  {
+  padding: 20px;
+  margin-right: 80px;
+  text-align: center;
+  border-radius: 30px;
+  height: 1050px;
+  width: 1200px;
+  margin-left: 50px;
+}
+      
+   .lst-pg{
+    height: 1100px;
+  width: 1200px;
+   }
+.lst-pg .img img{
+     width: 150px;
+     height: 90px;
+     float: left;
+     margin-left: 100px;
+   
+}
+.lst-pg .wrk p{
+     color: gray;
+     margin-top: 120px;
+     margin-right: 190px ;
+     width: 430px;
+     height: 50px;
+     text-align: left ;
+     margin-left: 100px;
+     line-height: 27px ;
+     font-size: 20px;
+}
+
+.lst-pg .wrk1 p{
+  color: gray;
+  margin-top: 120px;
+  margin-right: 190px ;
+  width: 430px;
+  height: 50px;
+  text-align: left ;
+  margin-left: 100px;
+  line-height: 27px ;
+  font-size: 20px;
+}
+
+
+table{
+  float: right;
+  margin-top: -260px;
+}
+
+table {
+  width: 40%;
+  height: 10%;
+
+}
+
+/* Styling for table cells */
+th, td {
+/* Border around cells */
+  padding: 10px; /* Space inside cells */
+  text-align: left;
+  font-size: 20px;
+
+}
+td{
+  color: gray;
+}
+
+.sub-btn button{
+  width: 350px;
+  height: 50px;
+  font-size: 19px;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(to right, orangered, orange
+  
+  
+  );
+  margin-top: 150px;
+  border: 2px solid;
+  border-radius: 3px;
+}
+
